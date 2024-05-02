@@ -46,17 +46,17 @@
 		         	session.setAttribute("user", fname);
 		         	session.setAttribute("pass", userPass);
 		         	session.setAttribute("userID",userID);
-					response.sendRedirect("http://localhost:8080/B-Bay/AdminFolder/AdminHome.jsp");
+					response.sendRedirect("http://localhost:8080/CSBay/AdminFolder/AdminHome.jsp");
 				}else{ //pass does not match db's pass
 					con.close();
 					con1.close();
 					  %>
 			            <script type="text/javascript">
 			            alert('Incorrect Password');
-			            window.location= "http://localhost:8080/B-Bay/";
+			            window.location= "http://localhost:8080/CSBay/";
 			         </script>
 			         <% 
-					//response.sendRedirect("http://localhost:8080/B_Bay/");
+					
 				}
 			}
 		}else{ //userName is NOT in DB
@@ -66,16 +66,13 @@
 	            <script type="text/javascript">
 	            alert('UserName Does Not Exist');
 	      
-	            window.location= "http://localhost:8080/B-Bay/AdminFolder/AdminLogin.jsp";
+	            window.location= "http://localhost:8080/CSBayAdminFolder/AdminLogin.jsp";
 	         </script>
 	         <%
-		    //response.sendRedirect("http://localhost:8080/B_Bay/");
+		    
 		
 		}   
-		
-		//Close the connection. Don't forget to do it, otherwise you're keeping the resources of the server allocated.
-		//con.close();
-		//con1.close();
+
 		
 		
 	} catch (Exception ex) {

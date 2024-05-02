@@ -41,7 +41,7 @@
 	            <script type="text/javascript">
 	            alert('Successfully updated password');
 	      
-	            window.location= "http://localhost:8080/B_Bay/";
+	            window.location= "http://localhost:8080/CSBay/";
 	         </script>
 	         <%	
 			
@@ -53,7 +53,7 @@
 	            <script type="text/javascript">
 	            alert('UserName Does Not Exist');
 	      
-	            window.location= "http://localhost:8080/B_Bay/";
+	            window.location= "http://localhost:8080/CSBay/";
 	         </script>
 	         <%		
 		} 

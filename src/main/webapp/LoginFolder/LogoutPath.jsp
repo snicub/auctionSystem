@@ -13,7 +13,7 @@
 <body>
 <%
 	session.invalidate();
-	response.sendRedirect("http://localhost:8080/B_Bay/LoginFolder/Login.jsp");
+	response.sendRedirect("http://localhost:8080/CSBay/LoginFolder/Login.jsp");
 %>				  
 
 </body>

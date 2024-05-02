@@ -50,7 +50,7 @@
 		%> 
        		 <script type="text/javascript">
        		 alert('Auctions Successfully Deleted!');
-       		 window.location= "http://localhost:8080/cs336Sample/CustomerRepresentativeFolder/EditAuctions.jsp";
+       		 window.location= "http://localhost:8080/CSBay/CustomerRepresentativeFolder/EditAuctions.jsp";
     		 </script>
 		<% 
 	

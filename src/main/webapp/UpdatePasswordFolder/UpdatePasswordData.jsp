@@ -39,14 +39,14 @@
 				con.close();
 				con1.close();
 				session.setAttribute("newUser", newUser);
-				response.sendRedirect("http://localhost:8080/B_Bay/UpdatePasswordFolder/UpdatePasswordFinal.jsp");
+				response.sendRedirect("http://localhost:8080/CSBay/UpdatePasswordFolder/UpdatePasswordFinal.jsp");
 			}else{ //email does not match db's email
 				con.close();
 				con1.close();
 				  %> 
 		            <script type="text/javascript">
 		            alert('Incorrect email');
-		            window.location= "http://localhost:8080/B_Bay/";
+		            window.location= "http://localhost:8080/CSBay/";
 		         </script>
 		         <% 
 			}
@@ -56,7 +56,7 @@
 			  %>       
 	            <script type="text/javascript">
 	            alert('UserName Does Not Exist');
-	            window.location= "http://localhost:8080/B_Bay/";
+	            window.location= "http://localhost:8080/CSBay/";
 	         </script>
 	         <%		
 		} 

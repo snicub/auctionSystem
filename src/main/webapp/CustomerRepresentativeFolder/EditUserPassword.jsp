@@ -30,7 +30,7 @@
         <script type="text/javascript">
         alert('Successfully updated passwords');
         //should move back to otheraccountinfo page
-        window.location= "http://localhost:8080/cs336Sample/CustomerRepresentativeFolder/OtherAccountInfo.jsp";
+        window.location= "http://localhost:8080/CSBay/CustomerRepresentativeFolder/OtherAccountInfo.jsp";
      	</script>
      	<%	
 

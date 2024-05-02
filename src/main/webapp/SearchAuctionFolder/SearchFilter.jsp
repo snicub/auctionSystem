@@ -27,7 +27,7 @@
 	 	 <input type="submit" value="Submit"> 
 	</form>
 	<br>
-		<a href="http://localhost:8080/B_Bay/Home.jsp">
+		<a href="http://localhost:8080/CSBay/Home.jsp">
 			<button>Go To Home</button>
 		</a>
 	

@@ -25,7 +25,7 @@
         
         <script type="text/javascript">
         alert('Successfully updated password');
-        window.location= "http://localhost:8080/B_Bay/Home.jsp";
+        window.location= "http://localhost:8080/CSBay/Home.jsp";
      	</script>
      	<%	
 

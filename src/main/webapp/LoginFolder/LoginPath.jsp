@@ -51,14 +51,14 @@
 		         	//session.setAttribute("userID",userID);
 		    		sess.setAttribute("userID", userID);
 		         	
-					response.sendRedirect("http://localhost:8080/B_Bay/Home.jsp");
+					response.sendRedirect("http://localhost:8080/CSBay/Home.jsp");
 				}else{ //pass does not match db's pass
 					con.close();
 					con1.close();
 					  %>
 			            <script type="text/javascript">
 			            alert('Incorrect Password');
-			            window.location= "http://localhost:8080/B_Bay/";
+			            window.location= "http://localhost:8080/CSBay/";
 			         </script>
 			         <% 
 					//response.sendRedirect("http://localhost:8080/B_Bay/");
@@ -71,7 +71,7 @@
 	            <script type="text/javascript">
 	            alert('UserName Does Not Exist');
 	      
-	            window.location= "http://localhost:8080/B_Bay/";
+	            window.location= "http://localhost:8080/CSBay/";
 	         </script>
 	         <%
 		    //response.sendRedirect("http://localhost:8080/B_Bay/");

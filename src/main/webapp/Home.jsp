@@ -14,10 +14,10 @@
      	 function confirmAction() {
 	        let confirmAction = confirm("Are you sure to delete your account?");
 	        if (confirmAction) {
-	        	window.location= "http://localhost:8080/B_Bay/DeleteFolder/DeleteAccount.jsp";
+	        	window.location= "http://localhost:8080/CSBay/DeleteFolder/DeleteAccount.jsp";
 	        	
 	        } else {
-	        	window.location= "http://localhost:8080/B_Bay/Home.jsp";
+	        	window.location= "http://localhost:8080/CSBay/Home.jsp";
 	        
 	        }
 	      }

@@ -26,7 +26,7 @@
 		%> 
        		 <script type="text/javascript">
        		 alert('Account Successfully Deleted! Sorry to see you go!');
-       		 window.location= "http://localhost:8080/B_Bay/LoginFolder/Login.jsp";
+       		 window.location= "http://localhost:8080/CSBay/LoginFolder/Login.jsp";
     		 </script>
 		<% 
 	

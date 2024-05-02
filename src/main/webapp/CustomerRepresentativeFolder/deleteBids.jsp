@@ -28,7 +28,7 @@
        		 <script type="text/javascript">
        		 alert('Bids Successfully Deleted! ');
        		 //go back to delete bid site
-       		  window.location= "http://localhost:8080/cs336Sample/CustomerRepresentativeFolder/EditBids.jsp";
+       		  window.location= "http://localhost:8080/CSBay/CustomerRepresentativeFolder/EditBids.jsp";
     		 </script>
 		<% 
 	

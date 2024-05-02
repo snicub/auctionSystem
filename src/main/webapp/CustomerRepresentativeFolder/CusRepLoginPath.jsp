@@ -45,14 +45,14 @@
 		         	session.setAttribute("user", fname);
 		         	session.setAttribute("pass", userPass);
 		         	//login success and redirect to home page for cus rep
-					response.sendRedirect("http://localhost:8080/B_Bay/CustomerRepresentativeFolder/CusRepHome.jsp");
+					response.sendRedirect("http://localhost:8080/CSBay/CustomerRepresentativeFolder/CusRepHome.jsp");
 				}else{ //pass does not match db's pass
 					con.close();
 					con1.close();
 					  %>
 			            <script type="text/javascript">
 			            alert('Incorrect Password');
-			            window.location= "http://localhost:8080/B_Bay/CustomerRepresentativeFolder/CusRepLogin.jsp";
+			            window.location= "http://localhost:8080/CSBay/CustomerRepresentativeFolder/CusRepLogin.jsp";
 			         </script>
 			         <% 
 					//response.sendRedirect("http://localhost:8080/B_Bay/");
@@ -65,7 +65,7 @@
 	            <script type="text/javascript">
 	            alert('UserName Does Not Exist');
 	      
-	            window.location= "http://localhost:8080/B_Bay/CustomerRepresentativeFolder/CusRepLogin.jsp";
+	            window.location= "http://localhost:8080/CSBay/CustomerRepresentativeFolder/CusRepLogin.jsp";
 	         </script>
 	         <%
 		    //response.sendRedirect("http://localhost:8080/B_Bay/");

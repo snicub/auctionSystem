@@ -42,7 +42,7 @@
 				 %>
 		            <script type="text/javascript">
 		            	alert('This username is already created. Please use a different username');
-		            	window.location= "http://localhost:8080/B_Bay/";
+		            	window.location= "http://localhost:8080/CSBay/";
 		            </script>
 		         <% 
 				
@@ -80,7 +80,7 @@
 		 %>
          <script type="text/javascript">
          	alert('Successfully created a new account!');
-        	 window.location= "http://localhost:8080/B_Bay/";
+        	 window.location= "http://localhost:8080/CSBay/";
       	 </script>
          <% 
 		

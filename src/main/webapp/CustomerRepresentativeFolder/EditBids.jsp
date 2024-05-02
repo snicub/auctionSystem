@@ -22,7 +22,7 @@
 		<% while(rs.next())
         {
             %>
-            <form  action="http://localhost:8080/cs336Sample/CustomerRepresentativeFolder/deleteBids.jsp?bidID=<%=rs.getString("bidID")%>" method="POST">
+            <form  action="http://localhost:8080/CSBay/CustomerRepresentativeFolder/deleteBids.jsp?bidID=<%=rs.getString("bidID")%>" method="POST">
             <p>
             <tr>
                 <td>Bid ID :  <%=rs.getString("bidID") %></td>

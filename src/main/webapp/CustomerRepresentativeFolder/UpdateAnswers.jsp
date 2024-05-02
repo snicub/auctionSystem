@@ -42,7 +42,7 @@
 
      	 <script type="text/javascript">
        		 alert('Update Question Sucess!');
-       		 window.location= "http://localhost:8080/cs336Sample/CustomerRepresentativeFolder/Question.jsp";
+       		 window.location= "http://localhost:8080/CSBay/CustomerRepresentativeFolder/Question.jsp";
     		</script>
      	<%	
      	 

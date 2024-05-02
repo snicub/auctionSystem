@@ -44,7 +44,7 @@ try{
 	Connection con = db.getConnection();
 	%>
 	<br>
-	<a href="http://localhost:8080/B_Bay/Home.jsp">
+	<a href="http://localhost:8080/CSBay/Home.jsp">
 		<button>Go To Home</button>
 	</a>
 	<br>
@@ -319,7 +319,7 @@ try{
 		con.close();
 		 %>
          <script type="text/javascript">
-         window.location= "http://localhost:8080/B_Bay/Home.jsp";
+         window.location= "http://localhost:8080/CSBay/Home.jsp";
 	     </script>
 	     <% 
 		
@@ -455,7 +455,7 @@ try{
 	con.close();
 	 %>
      <script type="text/javascript">
-     window.location= "http://localhost:8080/B_Bay/Home.jsp";
+     window.location= "http://localhost:8080/CSBay/Home.jsp";
      </script>
      <% 
 }catch(Exception e){

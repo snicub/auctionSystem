@@ -13,7 +13,7 @@
 <body>
 <%
 	session.invalidate();
-	response.sendRedirect("http://localhost:8080/B_Bay/CustomerRepresentativeFolder/CusRepLogin.jsp");
+	response.sendRedirect("http://localhost:8080/CSBay/CustomerRepresentativeFolder/CusRepLogin.jsp");
 	
 %>				  
 	<script type="text/javascript">

@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="cs336SampleProject">
+            
+    
+    <wb-module deploy-name="CSBay">
+                        
+        
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                        
+        
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                        
+        
         <wb-resource deploy-path="/WEB-INF/classes/" source-path="/src/main/ImportedClasses"/>
-        <property name="context-root" value="cs336SampleProject"/>
-        <property name="java-output-path" value="/cs336SampleProject/build/classes"/>
+                        
+        
+        <property name="java-output-path" value="/CSBay/build/classes"/>
+        <property name="context-root" value="CSBay"/>
+                    
+    
     </wb-module>
+        
+
 </project-modules>
